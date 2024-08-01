@@ -28,6 +28,29 @@ console.log("Sum of numbers:", sum);
 // Use forEach to print each number
 numbers.forEach(num => console.log("Number:", num));
 
+// Function to greet
+function greet(name) {
+    console.log(`Hello, ${name}!`);
+}
+
+// Function to sum an array of numbers
+function sumArray(arr) {
+    return arr.reduce((acc, num) => acc + num, 0);
+}
+
+// Function to find maximum number in an array
+function findMax(arr) {
+    return Math.max(...arr);
+}
+
+// Example usage
+greet("Pauline");
+let total = sumArray([1, 2, 3, 4, 5]);
+console.log("Sum:", total);
+let maxNumber = findMax([10, 20, 5, 35]);
+console.log("Max number:", maxNumber);
+
+
 
 
 
